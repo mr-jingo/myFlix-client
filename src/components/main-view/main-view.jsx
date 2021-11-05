@@ -18,7 +18,7 @@ export class MainView extends React.Component {
     };
   }
 
-  /*componentDidMount(){
+  componentDidMount(){
     axios.get('http://myflix667.herokuapp.com/movies')
       .then(response => {
         this.setState({
@@ -28,7 +28,7 @@ export class MainView extends React.Component {
       .catch(error => {
         console.log(error);
       });
-  }*/
+  }
 
   setSelectedMovie(movie) {
     this.setState({
