@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-//import './main-view.scss';
+import './main-view.scss';
 
 import { RegistrationView } from '../registration-view/registration-view';
 import { LoginView } from '../login-view/login-view';

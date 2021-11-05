@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-//import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
-//import './registration-view.scss';
+import './registration-view.scss';
 
 export function RegistrationView(props) {
     const [ username, setUsername ] = useState('');
@@ -39,6 +39,6 @@ export function RegistrationView(props) {
     );
 }
 
-/*RegisterView.propTypes = {
+RegisterView.propTypes = {
     onRegister: PropTypes.func.isRequired
-}; */
+};
